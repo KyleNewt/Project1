@@ -1,0 +1,189 @@
+.topNav{
+	height: 10%;
+	width: 100%;
+	background-color: ffA000;
+	border-bottom: 3px solid #343434;
+	overflow: hidden;
+}
+
+.topNav a {
+	float: left;
+	text-align: center;
+	padding: 14px;
+	text-decoration: none;
+	display: block;
+	color: #000000;
+}
+
+.topNav a:hover{
+	background-color: #ff8000;
+	color: #ffe700;
+}
+
+.topNav a.active{
+	background-color: 
+}
+
+.sideMenu {
+    height: 100%;
+    width: 30%;
+    float: left;
+    background-color: #ff8000;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    border-right: 3px solid #343434;
+}
+.sideMenu a {
+    padding: 10px 0px 10px 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #000000;
+    display: block;
+}
+
+.sideMenu a:hover{
+	background-color: #ff6000;
+}
+
+.sideMenu a:hover{
+    color: #ffe600
+}
+
+body {
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eecd80;
+}
+
+#main{
+	margin-left: 35%;
+}
+
+/* TO target class, use .
+    To target id, use #
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #353535;
+    color: #f4f4f4;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e84900 3px solid;
+}
+
+header a {
+    color: #f4f4f4;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a {
+    color: #e84900;
+    font-weight: bold;
+}
+
+#showcase {
+    min-height: 400px;
+    background: url('../images/pic.jpg') no-repeat 0 -400px;
+    text-align: center;
+    color: #e84900;
+}
+
+#showcase h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#showcase p {
+    font-size: 20px;
+}
+
+#quote {
+    padding: 15px;
+    color: #f4f4f4;
+    background: #353535;
+}
+
+#quote h1 {
+    float:left;
+}
+
+#quote form {
+    float: right;
+    margin-top: 15px;
+}
+
+#quote input[type="email"] {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+#boxes {
+    margin-top: 20px;
+}
+
+#boxes .box {
+    float: left;
+    text-align: center;
+    padding: 10px;
+    width: 30%;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #f4f4f4;
+    background-color: #e84900;
+    text-align: center;
+}
+
+ 	Media Queries 
+
+@media screen and (max-height: 540px) {
+    .sidenav {padding-top: 14px;}
+    .sidenav a {font-size: 14px;}
+}
+
+@media screen and (max-height: 420px) {
+    .sidenav {padding-top: 12px;}
+    .sidenav a {font-size: 12px;}
+}
+@media(max-width: 768px) {
+    header #branding,
+    header nav,
+    header nav li,
+    #quote h1,
+    #quote form,
+    #boxes .box {
+        float: none;
+        text-align: center;
+        width:100%;
+    }
+}
+*/
