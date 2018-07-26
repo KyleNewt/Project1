@@ -1,3 +1,5 @@
+
+
 .topNav{
 	height: 10%;
 	width: 100%;
@@ -6,46 +8,62 @@
 	overflow: hidden;
 }
 
-.topNav a {
+.topNav #topNav-frontPage{
 	float: left;
-	text-align: center;
-	padding: 14px;
-	text-decoration: none;
-	display: block;
-	color: #000000;
 }
 
-.topNav a:hover{
+.topNav button {
+	float: right;
+	padding: 10px;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	background: none;
+	border: none;
+	font-size: 14px;
+}
+
+.topNav button:hover{
 	background-color: #ff8000;
 	color: #ffe700;
 }
 
-.topNav a.active{
-	background-color: 
+.topNav button.active{
+	background-color: #ff7000;
 }
 
 .sideMenu {
-    height: 100%;
-    width: 30%;
+    height: 89%;
+    width: 25%;
     float: left;
     background-color: #ff8000;
     overflow-x: hidden; /* Disable horizontal scroll */
     border-right: 3px solid #343434;
 }
-.sideMenu a {
-    padding: 10px 0px 10px 10px;
+.sideMenu button {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 14px;
     color: #000000;
     display: block;
+    background: none;
+    border: none;
+    width: 99%;
+    height: 18%
 }
 
-.sideMenu a:hover{
+
+.sideMenu button:hover{
 	background-color: #ff6000;
 }
 
-.sideMenu a:hover{
+.sideMenu button:hover{
     color: #ffe600
+}
+
+#mainSpace{
+	 height:89%;
+	 width:69%;
+	 overflow:auto;
 }
 
 body {
@@ -57,6 +75,7 @@ body {
 
 #main{
 	margin-left: 35%;
+	
 }
 
 /* TO target class, use .
