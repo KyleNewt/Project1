@@ -44,7 +44,8 @@
     color: #000000;
     display: block;
     height: auto;
-    padding-top: 20%;
+    padding-top: 15%;
+    padding-bottom: 5%;
     width: 99%;
     height: 10%
 }
@@ -84,4 +85,20 @@ body {
 }
 #createAccount input{
     display: block;
+}
+
+#submitTicket{
+    width: 100%;
+    clear: both;
+}
+
+#submitTicket input{
+    width: 100%;
+    clear: both;
+}
+
+#submitTicket textarea{
+    width: 100%;
+    height: 30%;
+    clear: both;
 }
